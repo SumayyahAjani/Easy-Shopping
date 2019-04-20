@@ -1,0 +1,146 @@
+body {
+	background-color: rgba(180, 180, 0, 0.5); 
+	margin: 15px;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 2em 75px;
+	align-items: 
+	flex-end; 
+	background-color: red; 
+	color: white;
+}
+.logo {
+	width: 10%; 
+	font-family: lucida calligraphy; 
+	font-size: 1.1em;
+}
+.links {
+	list-style-type: none; 
+	display: flex;
+	width: 65%;
+	margin-left: 2em;
+	
+}
+.links li {
+	cursor: pointer;
+	padding: 3px 7px;
+	border: 2px;
+	border-radius: 4px;
+	background-color: rgba(180,180,0,0.5);
+}
+.links li:hover {
+	color: black;
+    border-bottom: 1px solid;
+}
+.links li + li {
+	margin-left: 2em;
+}
+.nav-search {
+	width: 15%;
+}
+.nav-search span:hover {
+	color: blue;
+}
+.nav-search span + span {
+	margin-left: 4em;
+}
+.header-text {
+	color: black;
+	font-family: tahoma; 
+	height: 100vh;
+	width:40vw;
+    float:left;
+    border-top: 5px;
+    margin-top: 5em;
+}
+header {
+	height: 100vh;
+	position: relative;
+	background-size: cover;
+	margin-top: 5em;
+}
+.header-text {
+	width:40vw;
+    float:left;
+    border-top: 5px;
+    margin-top: 5em;
+}
+.header-text h1 {
+	font-size: 2.5rem;
+	margin: 0.25rem 0;
+	text-transform: uppercase;
+	font-family: fantasy;
+
+}
+.header-text p {
+	font-size: 1.3em; 
+	margin: 1rem 5; 
+
+}
+.header-image {
+	position: absolute;
+	right: 0;
+	height:80%;
+	width: 50vw;
+	background-image: url(images/womancart.jpg);
+	background-position: top;
+	background-size: cover;
+}
+.info {
+	text-align: center;
+	width: 40vw;
+}
+.services h1 {
+	text-align: center;
+	text-decoration: underline;
+	font-family: lucida calligraphy;
+	color: red;
+	font-style: oblique;
+}
+form {
+	border: 3px solid green;
+	margin: 60px;
+	padding: 80px 60px;
+	border-radius: 5px;
+	width: 60%;
+
+}
+input {
+	width: 100%;
+	margin: 8px 0;
+	box-sizing: border-box;
+}
+select {
+	width: 50;
+	padding: 10px 30px;
+	border: none;
+	margin: 15px;
+	border-radius: 4px;
+	background-color: #f1f1f1;
+}
+textarea {
+	width: 100%;
+	height: 150px;
+	padding: 12px 20px;
+	box-sizing: border-box;
+	border-radius: 4px;
+	background-color: #f8f8f8;
+	resize: none;
+}
+button {
+	margin-top: 30px;
+	margin-left: 40px;
+}
+th, td {
+	padding: 40px;
+}
+footer {
+	border:3px solid green;
+	background-color: green;
+	padding: 10px;
+}
+footer h4 {
+	text-align: center;
+}
